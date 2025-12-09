@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "set NODE_OPTIONS=--openssl-legacy-provider && next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },
