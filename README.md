@@ -1,6 +1,6 @@
 Debosmita Banerjee – Developer Portfolio Website
 
-This repository contains my personal portfolio website, built to showcase my work, skills, projects, education, and contact information.
+This repository contains my personal portfolio website, built to showcase my work, skills, projects and contact information.
 The site is fully responsive, includes light/dark mode, and features a custom backend email handler for the contact form.
 
 
