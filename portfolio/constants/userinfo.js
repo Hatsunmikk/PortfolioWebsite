@@ -1,54 +1,65 @@
 //PLEASE FOLLOW THE FORMAT OF THIS FILE.
 
-import { faGithubAlt, faLinkedinIn, faMediumM, faFacebook, faTwitter, faInstagram, faYoutube, faBehance } from "@fortawesome/free-brands-svg-icons"
+import { faGithubAlt, faLinkedinIn, } from "@fortawesome/free-brands-svg-icons"
 
 export const userinfo = {
-    logoText: "Michael Scott", //This text is visible on your navbar and footer like your logo.
+    logoText: "Debosmita Banerjee", //This text is visible on your navbar and footer like your logo.
     contact: {
-        email: 'michaelscott@email.com', //It is always a good idea to mention your email on your website. Good platform to communicate.
-        phone: '1234567890', //Phone number is optional, if you dont want it, consider leaving it blank .
+        email: 'debos2003@gmail.com', //It is always a good idea to mention your email on your website. Good platform to communicate.
+        phone: '', //Phone number is optional, if you dont want it, consider leaving it blank .
         countrycode: '+91' //It is advisable to add the country code incase you mention your contact number.
     },
     socials: [
         //For aesthetics, it is advisable for you to mention upto 4 social media links only. Fill in the links.
         //more icons are imported above, use as you like them.
-        { type: 'github', link: '', icon: faGithubAlt },
-        { type: 'linkedin', link: '', icon: faLinkedinIn },
-        { type: 'medium', link: '', icon: faMediumM },
+        { type: 'Github', link: 'https://github.com/Hatsunmikk', icon: faGithubAlt },
+        { type: 'Linkedin', link: 'https://www.linkedin.com/in/debosmitabanerjee', icon: faLinkedinIn },
+        
     ],
     greeting: {
         //this text goes on your landing page
-        title: "Hey there, I am Michael.",
-        subtitle: "Michael Gary Scott is a fictional character in NBC's The Office, portrayed by Steve Carell. Michael is the protagonist of the series, serving as the Regional Manager of the Scranton branch of a paper distribution company, Dunder Mifflin Inc. Also, that's what she said!"
+        title: "Hi, I’m Debosmita - aspiring Software Engineer & Web Developer.",
+        subtitle: ""
     },
     capabilities: [
         //this text goes on your home page in table format.
         //For aesthetics, it is advisable for you to mention upto 4 catgeories links only.
         //For aesthetics, it is advisable for you to keep similar number of skills in each category
         {
-            category: "Category", // eg.frontend, backend, devops etc
-            skills: ["Skillset1", "Skillset1", "Skillset1"] //eg. react, html, python etc.
+            category: "Programming Languages", // eg.frontend, backend, devops etc
+            skills: ["JavaScript", "C", "Java", "HTML5", "CSS3"] //eg. react, html, python etc.
         },
         {
-            category: "Category",
-            skills: ["Skillset2", "Skillset2", "Skillset2"]
+            category: "Frameworks & Libraries",
+            skills: ["React", "Next.js (basics)", "Chakra UI", "TailwindCSS"]
         },
         {
-            category: "Category",
-            skills: ["Skillset3", "Skillset3", "Skillset3"]
+            category: "Tools & Practices",
+            skills: ["Git & GitHub",
+        "Responsive Web Design",
+        "DOM Manipulation",
+        "Unit Testing (Jest, React Testing Library)",]
         },
         {
-            category: "Category",
-            skills: ["Skillset4", "Skillset4", "Skillset4"]
+            category: "Professional Skills",
+            skills: ["Problem Solving & Debugging",
+        "Technical Communication",
+        "Time Management",
+        "Teamwork & Coordination",]
         },
     ],
     about: {
         //this text goes at the bottom of your home page.
-        content: "'Do I need to be liked? Absolutely not. I like to be liked. I enjoy being liked. I have to be liked. But it’s not like this compulsive need like my need to be praised.' Whatever the situation or conflict might be, it can almost always be traced back to this need. His conference room characters, fun runs, and copious amounts of office parties are all aimed at his need to be praised.",
-        resume: "/" //link your resume here. it can be drive link or any other link
+        content: `I’m a CS student focused on building responsive, user-friendly web applications. I enjoy working with modern frontend tools while strengthening my foundations in CS, algorithms, and software design.
+
+I value clean code, good UX, and creating products that feel intuitive and purposeful. I’m currently exploring backend, full-stack development and improving my problem-solving skills through projects and continuous learning.
+
+Beyond tech, you can find me exploring different genres of music and updating my Spotify playlists, playing Valorant or working out - be it climbing, calisthenics or perfecting my badminton smash.
+`.trim(),
+        resume: "/resume.pdf" //link your resume here. it can be drive link or any other link
     },
     education: {
-        visible: true, //set this to false if you want to omit this section
+        visible: false, //set this to false if you want to omit this section
         educationList: [
             {
                 time: 'May - Oct 2020', //timespan
@@ -74,52 +85,38 @@ export const userinfo = {
         visible: true, //set this to false if you want to omit this section
         experienceList: [
             {
-                company: 'Dunder Mifflin', //company name eg.Microsoft
-                companylogo: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/why-did-steve-carell-leave-the-office-1585597666.jpg?crop=0.563xw:0.844xh;0.287xw,0.128xh&resize=480:*', //companylogo
-                position: 'Regional Manager', //post you held eg.Senior SDE
-                time: 'March 2020 - May 2020', //timespan
-                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum' //eg. spearheaded the graphics team in designing SASS product UIs
+                company: 'Independent Projects', //company name eg.Microsoft
+                companylogo: '', //companylogo
+                position: 'Frontend Developer', //post you held eg.Senior SDE
+                time: '2023 - Present', //timespan
+                description: 'Building responsive interfaces with HTML, CSS, JavaScript, React, and UI libraries; practising version control, debugging, and testing through personal projects.' //eg. spearheaded the graphics team in designing SASS product UIs
             },
-            {
-                company: 'Dunder Mifflin',
-                companylogo: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/why-did-steve-carell-leave-the-office-1585597666.jpg?crop=0.563xw:0.844xh;0.287xw,0.128xh&resize=480:*',
-                position: 'Regional Manager',
-                time: 'March 2020 - May 2020',
-                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum'
-            },
-            {
-                company: 'Dunder Mifflin',
-                companylogo: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/why-did-steve-carell-leave-the-office-1585597666.jpg?crop=0.563xw:0.844xh;0.287xw,0.128xh&resize=480:*',
-                position: 'Regional Manager',
-                time: 'March 2020 - May 2020',
-                description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum'
-            },
+            
         ],
     },
     blogs: {
         //set this to false if you want to omit this section
-        visible: true
+        visible: false,
     },
 }
 
 export const headings = {
     //you can customise all the headings here.
-    workHomePage: 'Work',
-    workMainPage: 'Projects',
-    capabilities: 'Capabilities',
+    workHomePage: 'Projects',
+    capabilities: 'Skills',
     about: 'About Me',
     education: 'Education',
-    experience: 'Experiences',
-    blogs: 'I write!',
+    experience: 'Experience',
+    blogs: 'Blog',
     contact: 'Contact Me',
 }
 
 export const ctaTexts = {
     //you can customise all the cta texts here.
-    landingCTA: 'My work',
-    workCTA: 'View All',
+    landingCTA: 'View my work',
+    workCTA: 'View All Projects',
     capabCTA: 'Get in Touch',
     educationCTA: 'About Me',
-    resumeCTA: 'Resume',
-    submitBTN: 'Submit'
+    resumeCTA: 'Download Resume',
+    submitBTN: 'Send Message'
 }

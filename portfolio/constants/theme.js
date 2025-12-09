@@ -1,25 +1,25 @@
 export const lightTheme = {
-    name: 'light',
-    body: '#fefefe',
-    text: '#363537',
-    subtext: '#707070',
-    secondary: '#d7f7f5',
-    tertiary: '#75cac3',
-    accent: '#263859',
-    boxShadow: '0px 2px 10px -2px rgba(134, 134, 134, 0.5)',
-    contrastText: '#FAFAFA',
-    footerColor: '#F0F0F0',
-  }
-  
-  export const darkTheme = {
-    name: 'dark',
-    body: '#17223b',
-    text: '#FAFAFA',
-    subtext: '#D0D0D0',
-    secondary: '#263859',
-    tertiary: '#A2AAB9',
-    accent: '#d7f7f5',
-    boxShadow: '0px 2px 10px -2px rgba(51, 51, 51, 0.5)',
-    contrastText: '#101010',
-    footerColor: '#16161D'
-  }
+  name: 'light',
+  body: '#f9fafb',
+  text: '#111827',
+  subtext: '#6b7280',
+  secondary: '#ede9fe',
+  tertiary: '#a855f7',
+  accent: '#4c1d95',
+  boxShadow: '0px 2px 10px -2px rgba(148, 163, 184, 0.7)',
+  contrastText: '#FAFAFA',
+  footerColor: '#f3f4f6',
+}
+
+export const darkTheme = {
+  name: 'dark',
+  body: '#0b1120',
+  text: '#f9fafb',
+  subtext: '#e5e7eb',
+  secondary: '#1f2937',
+  tertiary: '#4c1d95',
+  accent: '#e9d5ff',
+  boxShadow: '0px 2px 10px -2px rgba(15, 23, 42, 0.7)',
+  contrastText: '#020617',
+  footerColor: '#020617',
+}

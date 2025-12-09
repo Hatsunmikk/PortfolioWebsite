@@ -3,6 +3,13 @@
     font-size: 30px;
   }
 
+  .footerlogo {
+  grid-column: 1 / -1;      /* span all 3 columns */
+  justify-self: center;     /* center the logo text */
+  margin-bottom: 1.5rem;    /* little space before the columns */
+}
+
+
   .navbar{
     z-index: 5000;
     width: -webkit-fill-available;
@@ -56,12 +63,15 @@
 .footertable {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  place-items: center;
+  align-items: start;
+  justify-items: center;
   margin: 2rem auto;
   width: 80%;
 }
 
 .footertable ul{
+  margin: 0;
+  padding: 0;
   list-style: none;
   text-align: left;
 }
@@ -69,8 +79,10 @@
 .footertable li{
   font-size: 14px;
   margin: 0.2rem 0;
-  text-transform: capitalize;
+  text-transform: none;
 }
+
+
 
 .footertable li:hover{
   text-decoration: underline;
