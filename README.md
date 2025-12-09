@@ -3,8 +3,7 @@ Debosmita Banerjee – Developer Portfolio Website
 This repository contains my personal portfolio website, built to showcase my work, skills, projects and contact information.
 The site is fully responsive, includes light/dark mode, and features a custom backend email handler for the contact form.
 
-
- Tech Stack: 
+Tech Stack:
 
 Frontend
 
@@ -30,8 +29,8 @@ Nodemailer
 
 Google App Password (secure email sending)
 
- Features: 
- Hero Section
+Features:
+Hero Section
 
 Large background image with optimized focus on mobile and desktop
 
@@ -39,7 +38,7 @@ Dynamic light/dark mode
 
 Clean typography with Playfair Display & Inter fonts
 
- About Me
+About Me
 
 Developer-focused description highlighting:
 
@@ -47,13 +46,13 @@ Full-stack development interests
 
 CS learning journey
 
-Hobbies 
+Hobbies
 
 Background image with adaptive styling
 
 Dark/light mode-optimized text contrast
 
- Skills Section
+Skills Section
 
 Organized into:
 
@@ -65,7 +64,7 @@ Tools & Technologies
 
 Displayed using clean tags and thoughtful spacing.
 
- Projects Section
+Projects Section
 
 Each project includes:
 
@@ -87,8 +86,7 @@ Calculator
 
 Rock–Paper–Scissors
 
-
- Contact Form
+Contact Form
 
 Fully functional form that sends messages directly to your email
 
@@ -100,7 +98,7 @@ Integrated toast notifications
 
 Social links (GitHub, LinkedIn, etc.)
 
- Footer
+Footer
 
 Pages, Socials, and Contact sections aligned horizontally
 
