@@ -4,7 +4,7 @@ import Navlinks from './Navlinks'
 import { useMediaQuery } from "@chakra-ui/react"
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { userinfo } from '../Constants/userinfo'
+import { userinfo } from '../constants/userinfo'
 
 const Navbar = ({ toggleTheme, currentTheme }) => {
     const [drawerVisible] = useMediaQuery("(max-width: 950px)")

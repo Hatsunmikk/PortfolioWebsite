@@ -1,7 +1,7 @@
 import styles from '../styles/Work.module.css'
 import React, { useState, useEffect, useRef } from 'react'
 import { useMediaQuery } from "@chakra-ui/react"
-import { headings } from '../Constants/userinfo'
+import { headings } from '../constants/userinfo'
 
 export const CarouselItem = ({ children, width, currentTheme }) => {
   return (
