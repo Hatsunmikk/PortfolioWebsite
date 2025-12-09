@@ -434,7 +434,7 @@
   .subheading{
     font-size: 17px;
   }
-  /* ...rest of your existing rules... */
+  
 }
 
 /* small phones */
@@ -454,5 +454,5 @@
   .subheading{
     font-size: 15px;
   }
-  /* ...rest of your existing rules... */
+  
 }

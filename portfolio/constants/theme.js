@@ -1,7 +1,7 @@
 export const lightTheme = {
   name: 'light',
   body: '#f9fafb',
-  text: '#111827',
+  text: '#1f1f1f',
   subtext: '#6b7280',
   secondary: '#ede9fe',
   tertiary: '#a855f7',

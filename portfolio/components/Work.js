@@ -12,12 +12,12 @@ const Work = ({ currentTheme }) => {
 
     const [blogList, setBlogList] = useState([])
 
-    // CUSTOM BLOGS SUPPORT: UNCOMMENT THE FOLLOWING CODE FOR CUSTOM BLOGS
+    // CUSTOM BLOGS SUPPORT: UNCOMMENT THE FOLLOWING CODE FOR CUSTOM BLOGS (for future blogs)
     useEffect(() => {
         setBlogList(custom_blogs)
     }, [])
 
-    // MEDIUM BLOGS SUPPORT: UNCOMMENT THE FOLLOWING CODE FOR MEDIUM BLOGS
+    // MEDIUM BLOGS SUPPORT: UNCOMMENT THE FOLLOWING CODE FOR MEDIUM BLOGS (for future blogs)
     // useEffect(() => {
     //     fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${medium_blogs.username}`)
     //         .then(response => response.json())
@@ -25,7 +25,7 @@ const Work = ({ currentTheme }) => {
     //         .catch(err => console.error(err));
     // }, [])
 
-    // DEV.TO BLOGS SUPPORT: UNCOMMENT THE FOLLOWING CODE FOR DEV.TO BLOGS
+    // DEV.TO BLOGS SUPPORT: UNCOMMENT THE FOLLOWING CODE FOR DEV.TO BLOGS (for future blogs)
     // useEffect(() => {
     //     fetch(`https://dev.to/api/articles?username=${dev_to.username}`)
     //         .then(response => response.json())
