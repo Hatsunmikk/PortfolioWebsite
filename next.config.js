@@ -1,6 +1,11 @@
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-  images: {
-    domains: ['cdn-images-1.medium.com', 'miro.medium.com', 'res.cloudinary.com'],
+  webpack: (config) => {
+    // Fix for Node 20+ OpenSSL changes with older Webpack/Next versions
+    config.output.hashFunction = "xxhash64";
+    return config;
   },
-}
+};
+
+module.exports = nextConfig;
