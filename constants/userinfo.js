@@ -24,23 +24,27 @@ export const userinfo = {
         
         {
             category: "Programming Languages", 
-            skills: ["JavaScript", "C", "Java", "HTML5", "CSS3"] 
+            skills: ["JavaScript", "C", "Java", "HTML5", "CSS3", "Go (basics)", "C++"] 
         },
         {
             category: "Frameworks & Libraries",
-            skills: ["React", "Next.js (basics)", "Chakra UI", "TailwindCSS"]
+            skills: ["React", "Next.js (basics)", "ReactFlow", "Chakra UI", "TailwindCSS"]
         },
         {
-            category: "Tools & Practices",
+            category: "Tools & Development Practices",
             skills: ["Git & GitHub",
         "Responsive Web Design",
         "DOM Manipulation",
-        "Unit Testing (Jest, React Testing Library)",]
+        "Unit Testing (Jest, React Testing Library)",
+         "Debugging & Dependency Management",
+        "Deployment (Vercel, GitHub Pages)",
+    ]
         },
         {
             category: "Professional Skills",
             skills: ["Problem Solving & Debugging",
         "Technical Communication",
+        "Adaptability",
         "Time Management",
         "Teamwork & Coordination",]
         },
@@ -84,9 +88,9 @@ Beyond tech, you can find me exploring different genres of music and updating my
             {
                 company: 'Independent Projects', 
                 companylogo: '', 
-                position: 'Frontend Developer', 
+                position: 'Software Developer (Personal Projects)', 
                 time: '2023 - Present', //timespan
-                description: 'Building responsive interfaces with HTML, CSS, JavaScript, React, and UI libraries; practising version control, debugging, and testing through personal projects.' //eg. spearheaded the graphics team in designing SASS product UIs
+                description: 'Designing and developing responsive web applications and software tools using React, Next.js, JavaScript, and modern UI frameworks. Gaining hands-on experience in debugging, testing, version control, UI/UX design, and deploying production-ready projects.' //eg. spearheaded the graphics team in designing SASS product UIs
             },
             
         ],

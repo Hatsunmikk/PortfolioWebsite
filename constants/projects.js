@@ -29,12 +29,12 @@ export const projects = [
     ], 
   },
   {
-    name: "Rock–Paper–Scissors",
+    name: "LinkedIn Automation Tool",
     description:
-      "A mini-game focused on DOM manipulation, game state handling, and visual feedback.",
-    githubLink: "https://github.com/Hatsunmikk/rock-paper-scissors", 
-    projectLink: "https://hatsunmikk.github.io/rock-paper-scissors/",
-    tech: ["HTML", "CSS", "JavaScript", "DOM"],
-    photo: ["/projects/Project3_1.jpg"], // only one image right now
+      "A backend automation tool developed in Go to streamline repetitive LinkedIn engagement workflows. Focused on efficiency, structured data handling, and clean scripting logic to automate routine tasks while maintaining reliability and scalability.",
+    githubLink: "https://github.com/Hatsunmikk/linkedin-automation", 
+    projectLink: "https://youtu.be/mCVrr0nB8hA",
+    tech: ["Go", "Automation", "Scripting", "Backend Development"],
+    photo: ["/projects/Project3_1.jpg"], 
   },
 ];
