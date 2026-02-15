@@ -17,13 +17,16 @@ export const projects = [
     ],
   },
   {
-    name: "Calculator",
+    name: "Workflow Graph Builder (React Flow)",
     description:
-      "A browser-based calculator with keyboard support and a clean, responsive layout.",
-    githubLink: "https://github.com/Hatsunmikk/calculator", 
-    projectLink: "https://hatsunmikk.github.io/calculator/",
-    tech: ["HTML", "CSS", "JavaScript"],
-    photo: ["/projects/Project2_1.jpg"], // only one image right now
+      "An interactive workflow visualizer built using React Flow that allows users to create, connect, and manipulate nodes dynamically. Implemented drag-and-drop positioning, zoom/pan controls, and custom node components with efficient state handling for smooth real-time interactions.",
+    githubLink: "https://github.com/Hatsunmikk/ainyx-reactflow-canvas", 
+    projectLink: "https://ainyx-reactflow-canvas-eh4q92zbf.vercel.app/",
+    tech: ["React", "React Flow", "JavaScript", "CSS", "State Management"],
+    photo: ["/projects/Project2_1.jpg",
+             "/projects/Project2_2.jpg",
+             "/projects/Project2_3.jpg",
+    ], 
   },
   {
     name: "Rock–Paper–Scissors",
